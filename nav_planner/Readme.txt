@@ -5,7 +5,7 @@ gz service -s /gui/follow/offset   --reqtype gz.msgs.Vector3d   --reptype gz.msg
 
  ros2 launch nav2_bringup navigation_launch.py use_sim_time:=True autostart:=True map:=/home/rishi/nav_ws/src/nav_planner/maps/my_map.yaml
 
-ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
+ ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
 
 
 ros2 topic pub --once /cancel_order std_msgs/String "data: 'table2'"
