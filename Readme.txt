@@ -12,7 +12,6 @@ To navigate the amr in the environment.
         
 To cancel the tasks:
         
-        
         ros2 topic pub --once /cancel_task std_msgs/msg/Bool "data: true"
 
 To cancel the order:
